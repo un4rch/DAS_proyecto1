@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DAS_proyecto1</string>
+    <string name="menu_habits_title">Habits</string>
+    <string name="menu_settings_title">Settings</string>
+</resources>
