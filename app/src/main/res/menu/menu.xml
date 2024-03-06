@@ -2,7 +2,7 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Opciones en la ActionBar -->
+    <!-- Elementos en la ActionBar -->
     <item
         android:id="@+id/menu_habits"
         android:title="@string/menu_habits_title"

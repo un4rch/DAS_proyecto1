@@ -1,5 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DAS_proyecto1</string>
     <string name="menu_habits_title">Habits</string>
     <string name="menu_settings_title">Settings</string>
+    <string name="button_change_language" translatable="false">Change</string>
+    <string name="text_change_language" translatable="false">Change Language</string>
+    <string-array name="spinner_options_array">
+        <item>eu</item>
+        <item>es</item>
+        <item>en</item>
+        <!-- Add more items as needed -->
+    </string-array>
 </resources>
