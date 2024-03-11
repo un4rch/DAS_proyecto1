@@ -4,18 +4,53 @@
     android:layout_height="match_parent">
 
     <!-- Agrega un RecyclerView para mostrar la lista de hábitos -->
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewHabits"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="0dp"
-        android:background="@color/white"
-        android:elevation="4dp" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        >
+
+        <!-- RecyclerView envuelto en CardView -->
+
+        <!-- Botón encima del CardView -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewHabits"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewHabits"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/button_add_habit"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:text="@string/button_add_habit" />
+
+        <!--<Spinner
+            android:id="@+id/spinnerProductos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            />-->
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:background="@color/white"
+            android:elevation="4dp" />
+    </LinearLayout>
 
 </RelativeLayout>

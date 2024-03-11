@@ -5,10 +5,29 @@
     <string name="menu_settings_title">Konfigurazioa</string>
     <string name="button_change_language" translatable="false">Aldatu</string>
     <string name="text_change_language" translatable="false">Aldatu hizkuntza</string>
-    <string-array name="spinner_options_array">
+    <string name="text_change_theme" translatable="false">Aldatu itzura</string>
+    <string name="button_add_habit" translatable="false">Ohitura berria</string>
+    <string name="button_edit_habit" translatable="false">Aldatu</string>
+    <string name="button_delete_habit" translatable="false">Ezabatu</string>
+    <string name="notification_show_app" translatable="false">-</string>
+    <string name="notification_open_app" translatable="false">Ireki aplikazioa</string>
+    <string name="positive_button_text" translatable="false">Gorde</string>
+    <string name="negative_button_text" translatable="false">Utzi</string>
+    <string name="message_save_habit" translatable="false">Ohitura gordeta</string>
+    <string name="title_save_habit" translatable="false">Ohitura jakinarazpena</string>
+    <string name="message_edit_habit" translatable="false">Ohitura adtatuta</string>
+    <string name="title_edit_habit" translatable="false">Ohitura jakinarazpena</string>
+    <string name="message_delete_habit" translatable="false">Ohitura ezabatuta</string>
+    <string name="title_delete_habit" translatable="false">Ohitura jakinarazpena</string>
+    <string-array name="language_spinner_options">
         <item>eu</item>
         <item>es</item>
         <item>en</item>
+        <!-- Add more items as needed -->
+    </string-array>
+    <string-array name="theme_spinner_options">
+        <item>BrightMode</item>
+        <item>DarkMode</item>
         <!-- Add more items as needed -->
     </string-array>
 </resources>

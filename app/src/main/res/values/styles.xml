@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BrightMode" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="toolbarStyle">@style/ToolbarBrightMode</item>
+    </style>
+
+    <style name="ToolbarBrightMode" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">#999999</item>
+    </style>
+
+    <style name="DarkMode" parent="Theme.AppCompat">
+        <item name="android:windowBackground">#333333</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="toolbarStyle">@style/ToolbarDarkMode</item>
+    </style>
+
+    <style name="ToolbarDarkMode" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">#111111</item>
+    </style>
+</resources>

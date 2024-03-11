@@ -5,10 +5,16 @@
     <string name="menu_settings_title">Konfigurazioa</string>
     <string name="button_change_language" translatable="false">Aldatu</string>
     <string name="text_change_language" translatable="false">Aldatu hizkuntza</string>
-    <string-array name="spinner_options_array">
+    <string name="text_change_theme" translatable="false">Aldatu itzura</string>
+    <string-array name="language_spinner_options">
         <item>eu</item>
         <item>es</item>
         <item>en</item>
+        <!-- Add more items as needed -->
+    </string-array>
+    <string-array name="theme_spinner_options">
+        <item>BrightMode</item>
+        <item>DarkMode</item>
         <!-- Add more items as needed -->
     </string-array>
 </resources>

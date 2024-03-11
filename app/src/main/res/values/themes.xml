@@ -7,7 +7,7 @@
 
     <style name="Theme.DAS_proyecto1" parent="Base.Theme.DAS_proyecto1" />
 
-    <style name="BrightMode" parent="Theme.AppCompat.Light.NoActionBar">
+    <!--<style name="BrightMode" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:windowBackground">@android:color/white</item>
         <item name="android:textColorPrimary">@android:color/black</item>
         <item name="windowActionBar">false</item>
@@ -16,6 +16,6 @@
     </style>
 
     <style name="ToolbarBrightMode" parent="Widget.AppCompat.Toolbar">
-        <item name="android:background">#333333</item>
-    </style>
+        <item name="android:background">#FF999999</item>
+    </style>-->
 </resources>
