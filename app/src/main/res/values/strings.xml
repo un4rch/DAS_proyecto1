@@ -7,6 +7,7 @@
     <string name="text_change_language" translatable="false">Aldatu hizkuntza</string>
     <string name="text_change_theme" translatable="false">Aldatu itzura</string>
     <string name="button_add_habit" translatable="false">Ohitura berria</string>
+    <string name="button_open_calendar" translatable="false">Egutegia</string>
     <string name="button_edit_habit" translatable="false">Aldatu</string>
     <string name="button_delete_habit" translatable="false">Ezabatu</string>
     <string name="notification_show_app" translatable="false">-</string>

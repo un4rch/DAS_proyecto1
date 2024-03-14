@@ -3,6 +3,7 @@ package com.example.das_proyecto1;
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.icu.util.Calendar;
@@ -104,6 +105,17 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Utils.dialogNewHabit(HomeActivity.this, habitList, habitAdapter);
+            }
+        });
+
+        Button openCalendarButton = findViewById(R.id.button_open_calendar);
+        openCalendarButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Crear un intent para abrir el calendario
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.addCategory(Intent.CATEGORY_APP_CALENDAR);
+                startActivity(intent);
             }
         });
     }
