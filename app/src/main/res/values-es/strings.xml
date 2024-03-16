@@ -6,6 +6,20 @@
     <string name="button_change_language" translatable="false">Cambiar</string>
     <string name="text_change_language" translatable="false">Cambiar Idioma</string>
     <string name="text_change_theme" translatable="false">Cambiar tema</string>
+    <string name="button_add_habit" translatable="false">Nuevo hábito</string>
+    <string name="button_open_calendar" translatable="false">Calendario</string>
+    <string name="button_edit_habit" translatable="false">Cambiar</string>
+    <string name="button_delete_habit" translatable="false">Eliminar</string>
+    <string name="notification_show_app" translatable="false">-</string>
+    <string name="notification_open_app" translatable="false">Abrir app</string>
+    <string name="positive_button_text" translatable="false">Guardat</string>
+    <string name="negative_button_text" translatable="false">Cancelar</string>
+    <string name="message_save_habit" translatable="false">Habito guardado</string>
+    <string name="title_save_habit" translatable="false">Notificación de habito</string>
+    <string name="message_edit_habit" translatable="false">Habito editado</string>
+    <string name="title_edit_habit" translatable="false">Notificación de habito</string>
+    <string name="message_delete_habit" translatable="false">Habito eliminado</string>
+    <string name="title_delete_habit" translatable="false">Notificación de habito</string>
     <string-array name="language_spinner_options">
         <item>eu</item>
         <item>es</item>
