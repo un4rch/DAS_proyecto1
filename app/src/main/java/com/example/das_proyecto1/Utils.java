@@ -76,7 +76,7 @@ public class Utils {
         SharedPreferences sharedPreferences = activity.getSharedPreferences("preferences", Context.MODE_PRIVATE);
         // Obtener el idioma guardado en preferencias, y sino, por defecto.
         String themePref = sharedPreferences.getString("theme", "BrightMode");
-        if (themePref.equals("BrightMode")) {
+        if (themePref.equals("Bright Mode") || themePref.equals("Modo Claro") || themePref.equals("Itxura Argia")) {
             activity.setTheme(R.style.BrightMode);
         } else {
             activity.setTheme(R.style.DarkMode);

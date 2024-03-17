@@ -23,6 +23,7 @@
     <string name="title_delete_habit" translatable="false">Notificación de habito</string>
     <string name="dialog_text" translatable="false">Nombre de hábito</string>
     <string name="dialog_date" translatable="false">Fecha de hábito</string>
+    <string name="dialog_text_placeholder" translatable="false">Introduce nombre de hábito</string>
     <string-array name="language_spinner_options">
         <item>eu</item>
         <item>es</item>
@@ -30,8 +31,8 @@
         <!-- Add more items as needed -->
     </string-array>
     <string-array name="theme_spinner_options">
-        <item>BrightMode</item>
-        <item>DarkMode</item>
+        <item>Modo Claro</item>
+        <item>Modo Oscuro</item>
         <!-- Add more items as needed -->
     </string-array>
 </resources>
