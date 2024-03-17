@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DAS_proyecto1</string>
+    <string name="splash_text" translatable="false">Kargatzen...</string>
     <string name="menu_habits_title">Ohiturak</string>
     <string name="menu_settings_title">Konfigurazioa</string>
     <string name="button_change_language" translatable="false">Aldatu</string>
@@ -20,6 +21,8 @@
     <string name="title_edit_habit" translatable="false">Ohitura jakinarazpena</string>
     <string name="message_delete_habit" translatable="false">Ohitura ezabatuta</string>
     <string name="title_delete_habit" translatable="false">Ohitura jakinarazpena</string>
+    <string name="dialog_text" translatable="false">Ohitura izena</string>
+    <string name="dialog_date" translatable="false">Ohitura data</string>
     <string-array name="language_spinner_options">
         <item>eu</item>
         <item>es</item>

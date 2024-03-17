@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DAS_proyecto1</string>
+    <string name="splash_text" translatable="false">Loading...</string>
     <string name="menu_habits_title">Habits</string>
     <string name="menu_settings_title">Settings</string>
     <string name="button_change_language" translatable="false">Change</string>
@@ -20,6 +21,8 @@
     <string name="title_edit_habit" translatable="false">Habit notification</string>
     <string name="message_delete_habit" translatable="false">Habit sucessfully deleted</string>
     <string name="title_delete_habit" translatable="false">Habit notification</string>
+    <string name="dialog_text" translatable="false">Habit name</string>
+    <string name="dialog_date" translatable="false">Habit date</string>
     <string-array name="language_spinner_options">
         <item>eu</item>
         <item>es</item>

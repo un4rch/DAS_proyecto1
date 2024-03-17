@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Utils.loadLanguage(this);
         setContentView(R.layout.activity_main);
         // Simulate a 5-second delay (5000 milliseconds)
         new Handler(getMainLooper()).postDelayed(() -> {
@@ -21,6 +22,6 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, HomeActivity.class);
             startActivity(intent);
             finish(); // Close the splash screen activity
-        }, 3000); // 5000 milliseconds = 5 seconds
+        }, 3000); // 3000 milliseconds = 3 seconds
     }
 }

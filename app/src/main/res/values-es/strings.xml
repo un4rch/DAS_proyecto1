@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DAS_proyecto1</string>
+    <string name="splash_text" translatable="false">Cargando...</string>
     <string name="menu_habits_title">Hábitos</string>
     <string name="menu_settings_title">Configuración</string>
     <string name="button_change_language" translatable="false">Cambiar</string>
@@ -12,7 +13,7 @@
     <string name="button_delete_habit" translatable="false">Eliminar</string>
     <string name="notification_show_app" translatable="false">-</string>
     <string name="notification_open_app" translatable="false">Abrir app</string>
-    <string name="positive_button_text" translatable="false">Guardat</string>
+    <string name="positive_button_text" translatable="false">Guardar</string>
     <string name="negative_button_text" translatable="false">Cancelar</string>
     <string name="message_save_habit" translatable="false">Habito guardado</string>
     <string name="title_save_habit" translatable="false">Notificación de habito</string>
@@ -20,6 +21,8 @@
     <string name="title_edit_habit" translatable="false">Notificación de habito</string>
     <string name="message_delete_habit" translatable="false">Habito eliminado</string>
     <string name="title_delete_habit" translatable="false">Notificación de habito</string>
+    <string name="dialog_text" translatable="false">Nombre de hábito</string>
+    <string name="dialog_date" translatable="false">Fecha de hábito</string>
     <string-array name="language_spinner_options">
         <item>eu</item>
         <item>es</item>
